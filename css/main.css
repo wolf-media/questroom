@@ -1,0 +1,281 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+html.js .loader {
+	background: none repeat scroll 0 0 #ffffff;
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+}
+html.js .loader_inner {
+	background-image: url("../img/preloader.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #fff;
+	height: 60px;
+	width: 60px;
+	margin-top: -30px;
+	margin-left: -30px;
+	left: 50%;
+	top: 50%;
+	position: absolute;
+}
+
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Cormorant SC', serif;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css?family=Cormorant+SC|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+.hidden {
+	display: none;
+}
+.header_top {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+	height: 100vh;
+}
+.nav_menu {
+	text-align: center;
+	line-height: 115px;
+}
+.nav_menu ul {
+	margin: 0;
+	padding: 0;
+}
+.nav_menu ul li {
+	display: inline-block;
+	padding-right: 30px;
+	text-transform: uppercase;
+}
+.nav_menu li a {
+	color: #fff;
+}
+.nav_menu li a:hover {
+	color: #ff0000;
+	transition:all 0.3s linear;
+}
+.logo img {
+	width: 200px;
+}
+.marketing_words {
+	padding-top: 150px;
+}
+.marketing_words h1 {
+	text-align: center;
+	color: #ff0000;
+	text-transform: uppercase;
+	font-size: 52px;
+	margin: 20px;
+}
+.white {
+	color: #fff;
+}
+.marketing_words h3 {
+	text-align: center;
+	color: #ededed;
+	font-size: 22px;
+	text-transform: uppercase;
+	margin: 0;
+}
+.marketing_words p {
+	text-align: center;
+	font-size: 18px;
+	color: #d9d9d9;
+	margin: 0;
+	margin-top: 5px;
+}
+.button_wrap {
+	text-align: center;
+	padding: 40px;
+}
+.button_descr {
+	padding: 20px 36px;
+	border: none;
+	background-color: #ff0000;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 18px;
+}
+.button_descr:hover {
+	background-color: #ff4f4f;
+	transition:all 0.3s linear;
+}
+.ab_us_content {
+	overflow: hidden;
+	padding: 100px 0;
+}
+.ab_us_img img {
+	width: 100%;
+	box-shadow: 5px 5px 10px;
+}
+.ab_us_descr {
+	padding-left: 25px;
+}
+.ab_us_descr h2 {
+	font-size: 3rem;
+	padding-bottom: 0px;
+	margin: 0;
+}
+.ab_us_descr p {
+	color: #1a1a18;
+}
+.ab_us_item_wrap {
+	display: inline-block;
+}
+.picture {
+	text-align: center;
+}
+.picture img {
+	width: 50%;
+}
+.video {
+	background-color: #f3f3f3;
+}
+.button_video {
+	padding-top: 40px;
+	text-align: center;
+}
+.video_wrap {
+	overflow: hidden;
+	padding: 100px 0;
+	min-height: 500px;
+	text-align: center;
+}
+.video_wrap p {
+	margin: 0;
+}
+.video_wrap h2 {
+	font-size: 3rem;
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+.video_content {
+	height: 300px;
+}
+.local {
+	text-align: center;
+}
+.local p {
+	color: #fff;
+	font-size: 18px;
+}
+footer {
+	background-color: #04060a;
+}
+.fa {
+	font-size: 28px;
+	color: #fff;
+}
+.bottom_line {
+	overflow: hidden;
+	padding: 100px 0;
+}
+.social {
+	text-align: center;
+}
+.social a {
+	padding: 0 20px;
+	outline: none;
+	display: inline-block;
+}
+.social a, .fa:hover {
+	color: #ff0000;
+	transition: all 0.3s linear;
+}
+.social p {
+	color: #fff;
+	font-size: 18px;
+}
+.number p {
+	color: #fff;
+	font-size: 16px;
+}
+.phone {
+	text-align: center;
+}
+iframe {
+	height: 100%;
+	width: 100%;
+}
+.cont_us {
+	text-align: center;
+	padding: 100px 0;
+}
+.contact_us_descr {
+	font-size: 24px;
+	padding: 0;
+	padding-bottom: 40px;
+}
+.cont_us h1 {
+	margin: 0;
+}
+.cont_us p {
+	padding-bottom: 60px;	
+	margin: 0;
+}
+.input {
+	padding: 10px;
+	width: 100%;
+}
+#submit {
+	padding: 9px 35px;
+	border: none;
+	background-color: #ff0000;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-size: 18px;
+}
+#submit:hover {
+	background-color: #ff4f4f;
+	transition: all 0.3s linear;
+}
+.MyForm {
+	box-shadow: 5px 5px 10px;
+	padding: 30px;
+	background-color: #f3f3f3;
+	width: 20%;
+	display: inline-block;
+	width: 400px;
+	height: 100%;
+}

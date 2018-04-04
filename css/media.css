@@ -1,0 +1,206 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.marketing_words {
+	    padding-top: 100px;
+	}
+	.ab_us_descr {
+	    padding-left: 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.marketing_words {
+	    padding-top: 170px;
+	}
+	.logo {
+		text-align: center;
+	}
+	.ab_us_descr h2 {
+		padding-top: 40px;
+	}
+	.button_video {
+		padding-bottom: 40px;
+	}
+	.local {
+		padding-bottom: 40px;
+	}
+	.social {
+		padding-bottom: 40px;
+	}
+	.video_wrap h2 {
+		margin-top: 0;
+	}
+	.ab_us_descr {
+	    padding-left: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.marketing_words {
+		padding-top: 170px;
+	}
+	.marketing_words h1 {
+	font-size: 45px;
+	}
+	.marketing_words h3 {
+		font-size: 17px;
+	}
+	.marketing_words p {
+		font-size: 16px;
+	}
+	.ab_us_descr {
+	    padding-left: 0;
+	}
+
+
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.logo {
+		text-align: center;
+	}
+	.nav_menu {
+	    text-align: center;
+	    line-height: 24px;
+	    background-color: #000;
+	    border-radius: 13px;
+	    padding: 12px;
+	    opacity: 0.5;
+	}
+	.nav_menu ul {
+	    margin: 0;
+	    padding-right: 1px;
+	    text-align: left;
+	}
+	.marketing_words {
+    	padding-top: 20px;
+	}
+	.marketing_words h1 {
+		font-size: 33px;
+	}
+	.nav_menu ul li {
+		display: block;
+		
+	}
+	.marketing_words h3 {
+		font-size: 13px;
+	}
+	.marketing_words p {
+		font-size: 14px;
+	}
+	.button_descr {
+	    padding: 14px 28px;
+	    border: none;
+	    background-color: #ff0000;
+	    color: #fff;
+	    text-transform: uppercase;
+	    border-radius: 5px;
+	    font-size: 12px;
+	}
+	.ab_us_descr h2 {
+	    font-size: 3rem;
+	    padding-bottom: 0px;
+	    margin: 0;
+	    padding-top: 40px;
+	}
+	.video_wrap h2 {
+	    font-size: 3rem;
+	    margin-top: 0;
+	    margin-bottom: 0;
+	}
+	.button_video {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+	}
+	.local {
+		padding-bottom: 40px;
+	}
+	.social {
+		padding-bottom: 40px;
+	}
+	.button_wrap {
+	    text-align: center;
+	    padding: 25px;
+	}
+	.MyForm {
+		width: 100%;
+	}
+	.contact_us_descr {
+    font-size: 16px;
+	}
+	.ab_us_descr {
+	    padding-left: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.MyForm {
+		width: 100%;
+	}
+	.contact_us_descr {
+    font-size: 16px;
+	}
+	.ab_us_descr {
+	    padding-left: 0;
+	}
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
